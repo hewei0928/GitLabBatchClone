@@ -1,0 +1,29 @@
+component:
+  rest:
+  connectionRequestTimeout: 2000
+  connectTimeout: 2000
+  readTimeout: 10000
+
+git:
+  gitlabUrl: http://my.office.hupun.com:5180/
+  apiVersion: /api/v4
+  privateToken: oUGf_1LcZQBLf1EPJ55y  # gitlab accessToken  http://my.office.hupun.com:5180/profile/personal_access_tokens
+  projectDir: /Users/hewei/data/program/hupun # 存放路径
+  group: Cross ERP # 跨境项目
+  ignores:
+    - kuaixun
+    - app
+    - archive
+    - calf
+    - cerp-drp
+    - production
+    - test
+    - tools
+    - whse-pda-api
+    - whse-pda-api-starter
+    - calf-whse-suit-starter
+    - calf-whse-web-starter
+    - erp-base-starter
+    - cerp-whse-starter
+    - whse-pda
+    - whse-view
